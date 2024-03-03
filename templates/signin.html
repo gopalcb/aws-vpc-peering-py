@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <title>User Auth / SSO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="../static/css/signin.css">
+</head>
+
+<html>
+
+<body>
+
+    <div class="container signin-block">
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card py-3 px-2">
+                    <!-- <p class="text-center mb-3 mt-2">SSO</p>
+                    <div class="row mx-auto ">
+                        <div class="col-4">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="fab fa-google"></i>
+                        </div>
+                    </div> -->
+                    <div class="division">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="line l"></div>
+                            </div>
+                            <div class="col-6"><span>Signin for OLTP test</span></div>
+                            <div class="col-3">
+                                <div class="line r"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="myform">
+                        <div class="form-group">
+                            <input type="email" class="form-control username" placeholder="Username">
+                            <small class="err" style="display: none; color: red;"></small>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control password" placeholder="Password">
+                            <small class="err" style="display: none; color: red;"></small>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12"><a href="/oltp_no_auth">Test OLTP without signin</a></div>
+                            <div class="col-md-12 register"><a href="/register">Register</a></div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="button" class="btn btn-block btn-primary btn-lg btn-signin"><small><i
+                                        class="far fa-user pr-2"></i>Signin</small></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../static/js/signin.js"></script>
